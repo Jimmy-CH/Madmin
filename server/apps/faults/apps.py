@@ -5,8 +5,8 @@ class FaultsConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
     name = 'apps.faults'
 
-    def ready(self):
-        import faults.signals  # noqa
+    # def ready(self):
+        # import faults.signals  # noqa
 
 
 
